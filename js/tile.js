@@ -68,8 +68,8 @@
       //   creatig the tile
       var tile = new Tile();
       tile.create();
-      scambbledPieces = scrammbleArray(pieces);
-        // scambbledPieces = pieces;
+    //   scambbledPieces = scrammbleArray(pieces);
+        scambbledPieces = pieces;
   
       // adding background-position to elements
       for (var i = 0; i < scambbledPieces.length; i++) {
